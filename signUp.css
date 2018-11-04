@@ -1,0 +1,70 @@
+  *{
+	margin: 0px auto;
+	padding: 0px;
+}
+#container
+{
+	width: auto;
+	margin: auto;
+	height: 100%;
+	width: 100%;
+	
+}
+
+header
+{
+	background-color:  #DB002A;
+	min-height: 200px;
+	color: white;
+	font-size: 30px;
+	text-align: center; 
+}
+
+footer
+{
+	background-color: #DB002A;
+	min-height: 100px:
+}
+
+img
+{
+	height: 300px;
+}
+
+fieldset
+{
+	width: 80%;
+	margin: auto;
+}
+
+legend {
+    background-color: #DB002A;
+    color: white;
+    padding: 3px 10px;
+	
+}
+
+.output {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+label {
+    display: inline-block;
+    font-size: .9rem;
+    width: 30%;
+}
+
+input[type='text'],
+input[type='password'] {
+    width: 60%;
+}
+
+input {
+    margin: .4rem 0;
+}
+
+
+#login
+{
+	text-align: center;
+}

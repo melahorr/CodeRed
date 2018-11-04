@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!-- I'm sorry I'm a weak coward and could not find a way to make the CSS apply to the template tags so this file is everything rewritten into two files: signUpOne and signUpTwo. Since they were originally the same page, the formatting is the same, so they can share the same CSS file.
+Also, I couldn't get the dropdown to work the way I wanted so I just did a damned text field. -->
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="signUp.css">
+		<script type = "text/javascript" src = "signUp.js"></script>
+		<meta charset = "UTF-8">
+		<title>CoogStudy</title>
+	</head>
+	<body>
+		<div class="container">
+			First Name<br>
+			<input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+			Last Name<br>
+			<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+			Age<br>
+			<input type="text" id="age" name="age" placeholder="Your age is...">
+
+			Classification<br>
+			<select id="classificatiom" name="classification">
+				<option value="freshman">Freshman</option>
+				<option value="sophomore">Sophomore</option>
+				<option value="junior">Junior</option>
+				<option value="senior">Senior</option>
+				<option value="graduate">Graduate</option>
+			</select>
+			
+			Type of Learner<br>
+			<select id="typeoflearner" name="typeoflearner">
+				<option value="Auditory">Auditory</option>
+				<option value="Visual">Visual</option>
+				<option value="Tactile">Tactile</option>
+			</select>
+			  
+			Course History
+			<ul id = "courseHistoryList">
+				<!-- <li>XXXX ####<div class = "deleteMe">x</div></li> -->
+			</ul>
+			<input type = "text" id = "addCH" size = "50"/>
+			<input type = "button" id = "btnAdd" value = "Add" onclick = "addItemCourseHistory()">
+			<br><br>
+			
+			Classes I Need Help In
+			<ul id = "weaknessList">
+				<!-- <li>XXXX ####<div class = "deleteMe">x</div></li> -->
+			</ul>
+			<input type = "text" id = "addW" size = "50"/>
+			<input type = "button" id = "btnAdd" value = "Add" onclick = "addItemWeakness()">
+			<br><br>
+			
+			<a href = "dashboard.html"><input type="submit" value="Submit"></a>
+		</div>
+	</body>
+</html>
