@@ -1,6 +1,21 @@
-.topBanner
+*
 {
-	
+	margin: 0px auto;
+	padding: 0px;
+}
+
+.banner
+{
+	width: auto;
+	margin: auto;
+	height: 100%;
+	width: 100%;
+}
+
+.matches
+{
+	text-align: center;
+	width: 100%;
 }
 
 .column
@@ -8,4 +23,24 @@
 	text-align: center;
 	float: left;
 	width: 20%;
+}
+
+header
+{
+	background-color: #DB002A;
+	min-height: 200px;
+	color: white;
+	font-size: 30px;
+	text-align: center; 
+}
+
+footer
+{
+	background-color: #DB002A;
+	min-height: 100px:
+}
+
+img
+{
+	height: 300px;
 }

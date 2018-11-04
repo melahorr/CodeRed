@@ -1,19 +1,29 @@
-  *{
+*
+{
 	margin: 0px auto;
 	padding: 0px;
 }
+
 #banner
 {
 	width: auto;
 	margin: auto;
 	height: 100%;
 	width: 100%;
-	
+}
+
+.container
+{
+	font-weight: bold;
+	font-size: 25px;
+	border-radius: 50px;
+    background-color: #DB002A;
+    padding: 50px;
 }
 
 header
 {
-	background-color:  #DB002A;
+	background-color: #DB002A;
 	min-height: 200px;
 	color: white;
 	font-size: 30px;
@@ -37,34 +47,78 @@ fieldset
 	margin: auto;
 }
 
-legend {
+legend
+{
     background-color: #DB002A;
     color: white;
     padding: 3px 10px;
 	
 }
 
-.output {
+.output
+{
     font: 1rem 'Fira Sans', sans-serif;
 }
 
-label {
+label
+{
     display: inline-block;
     font-size: .9rem;
     width: 30%;
 }
 
-input[type='text'],
-input[type='password'] {
-    width: 60%;
-}
-
-input {
+input
+{
     margin: .4rem 0;
 }
-
 
 #login
 {
 	text-align: center;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], [type=password], select, textarea
+{
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally)	*/
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit]
+{
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	margin-left: 20px;
+}
+
+input[type=button]
+{
+	padding: 12px 20px;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover
+{
+    background-color: #A7A7A7;
+}
+
+li
+{
+	font-size: 20px;
+}
+
+.deleteMe
+{
+	float: right;
 }
